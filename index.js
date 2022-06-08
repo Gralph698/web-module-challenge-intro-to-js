@@ -19,7 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
+let votingAge = 18;
+  if (votingAge >= 18);{
+  console.log("True");
+  }
 
 
 /*
@@ -34,6 +37,11 @@ Do the following:
    HINT: no function required
 */
 
+let firstThing = 5;
+let secondThing = 7;
+  if (firstThing > secondThing){
+    console.log(firstThing);
+  }
 
 
 
@@ -48,6 +56,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+let originalNum = "1999";
+  Number(originalNum);{
+    console.log(Number)
+  }
 
 
 
@@ -60,11 +72,12 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
+let answer = multiply(3,4);
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  let product = a * b; 
+  return product;
 }
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
